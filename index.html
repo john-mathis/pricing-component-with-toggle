@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+
+  <!-- Favicon Link -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+
+</head>
+
+<body>
+
+
+  <h1 class="heading">Our Pricing</h1>
+
+  <div class="toggle_switch_container">
+    <p class="customer_choice" id="anually">Anually</p>
+    <label class="switch">
+      <input type="checkbox" id="switchValue">
+      <span class="slider round"></span>
+    </label>
+    <p class="customer_choice" id="monthly">Monthly</p>
+  </div>
+
+
+
+  <div class="card_container">
+    <div class="card">
+      <h4 class="card_level">Basic</h4>
+      <div class="price_container">
+        <span class="money_sign">$</span>
+        <h2 class="card_price" id="basicPrice">199.99</h2>
+      </div>
+      <p class="card_info" id="first">500 GB Storage</p>
+      <p class="card_info">2 Users Allowed</p>
+      <p class="card_info">Send up to 3 GB</p>
+      <button class="card_button">Learn More</button>
+    </div>
+
+
+
+    <div class="card" id="flipped">
+      <h4 class="card_level flipped">Professional</h4>
+      <div class="price_container">
+        <span class="money_sign flipped">$</span>
+        <h2 class="card_price flipped" id="proPrice">249.99</h2>
+      </div>
+      <p class="card_info flipped" id="first">1 TB Storage</p>
+      <p class="card_info flipped">5 Users Allowed</p>
+      <p class="card_info flipped">Send up to 10 GB</p>
+      <button class="card_button" id="flippedButton">Learn More</button>
+    </div>
+
+
+
+
+    <div class="card">
+      <h4 class="card_level">Master</h4>
+      <div class="price_container">
+        <span class="money_sign">$</span>
+        <h2 class="card_price" id="masterPrice">399.99</h2>
+      </div>
+      <p class="card_info" id="first">2 TB Storage</p>
+      <p class="card_info">10 Users Allowed</p>
+      <p class="card_info">Send up to 20 GB</p>
+      <button class="card_button">Learn More</button>
+    </div>
+
+
+
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
